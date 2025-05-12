@@ -245,7 +245,7 @@ const ProjectList = () => {
                                     <Typography sx={styles.featuredProject}>Featured Project</Typography>
                                     <Typography sx={styles.projectName}>{value.projectName}</Typography>
                                 </Stack>
-                                <Stack sx={styles.projectDetails}>
+                                <Stack sx={styles.projectDetails} alignSelf={{lg:"",md:"",sm:"center",xs:"center"}}>
                                     <Typography sx={styles.projectDetailsText}>{value.projectDetails}</Typography>
                                 </Stack>
                                 <Stack direction={'row'} alignItems={value.project_id % 2 == 1 ? 'flex-end' : 'flex-start'} flexWrap={'wrap'} justifyContent={value.project_id % 2 == 1 ? 'flex-end' : 'flex-start'} columnGap={1} rowGap={1}>

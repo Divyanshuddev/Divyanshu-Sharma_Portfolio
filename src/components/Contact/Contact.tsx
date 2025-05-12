@@ -99,7 +99,7 @@ const Contact = () => {
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
                     >
-                        <Tooltip title="8303006600" slotProps={{
+                        <Tooltip title="+91 8303006600" slotProps={{
                             tooltip: {
                                 sx: {
                                     backgroundColor: "#112240",
@@ -110,7 +110,7 @@ const Contact = () => {
                                 },
                             },
                         }} >
-                            <IconButton href="https://wa.me/8303006600" target="_blank">
+                            <IconButton href="https://wa.me/+918303006600" target="_blank">
                                 <WhatsAppIcon sx={styles.icon} />
                             </IconButton>
                         </Tooltip>
