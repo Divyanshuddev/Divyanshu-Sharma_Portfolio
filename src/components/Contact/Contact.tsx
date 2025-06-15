@@ -27,9 +27,9 @@ const styles = {
 const Contact = () => {
     return (
         <div id="Contact">
-            <Stack justifyContent={'center'} spacing={5}>
+            <Stack justifyContent={'center'} spacing={5}  width={{lg:"120%",md:"120%",sm:"100%",xs:"100%"}}>
                 <Header title="Get in Touch" />
-                <Stack width={'100%'} alignSelf={'center'} alignItems={'center'}>
+                <Stack width={'100%'} alignSelf={'center'} alignItems={'center'} >
                     <Typography sx={styles.text}>Although <b style={{ color: "#64FFDA", }}>I’m  currently looking for any new opportunities</b>, my inbox is always open.</Typography>
                     <Typography sx={styles.text}>Whether you have a question or just want to say hi,</Typography>
                     <Typography sx={styles.text}>I’ll try my best to get back to you!</Typography>

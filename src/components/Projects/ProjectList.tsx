@@ -7,6 +7,8 @@ import Project5 from '../../assets/Project/Project5.png';
 import Project6 from '../../assets/Project/Project6.png';
 import Project7 from '../../assets/Project/Project7.png';
 import Project8 from '../../assets/Project/Project8.png';
+import Project9 from '../../assets/Project/Project9.png';
+import Project10 from '../../assets/Project/Project10.png';
 import { motion } from 'motion/react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded';
@@ -135,6 +137,36 @@ const ProjectData = [
         liveDemoLink: "https://dictionary-app-six-nu.vercel.app/",
         GithubLink: "https://github.com/Divyanshuddev/dictionary-app"
     },
+    {
+        project_id: 9,
+        projectImage: Project9,
+        projectName: "Gravity",
+        projectDetails: "Gravity is a sleek and responsive task management app built with React.js, TypeScript, and Material UI to help users efficiently manage tasks in real-time. ",
+        techStack: [
+            "Typescript",
+            "CSS",
+            "React",
+            "Material UI",
+            "Responsive UI",
+        ],
+        liveDemoLink: "https://gravity-app-psi.vercel.app/",
+        GithubLink: "https://github.com/Divyanshuddev/gravity-app"
+    },
+    {
+        project_id: 10,
+        projectImage: Project10,
+        projectName: "Post Pilot",
+        projectDetails: "Post Pilot is a sleek and responsive post management web application built with React.js, TypeScript, and Material UI. Designed to simplify the process of creating, editing, deleting, and scheduling social media posts, it offers a clean and intuitive interface that adapts seamlessly across devices. With support for theme customization, real-time updates, and a modular code structure, Post Pilot delivers a smooth and efficient user experience for content creators and marketers alike.",
+        techStack: [
+            "Typescript",
+            "CSS",
+            "React",
+            "Material UI",
+            "Responsive UI",
+        ],
+        liveDemoLink: "https://post-pilot-app.vercel.app/",
+        GithubLink: "https://github.com/Divyanshuddev/post_pilot_app"
+    }
 ]
 const styles = {
     projectImage: {
