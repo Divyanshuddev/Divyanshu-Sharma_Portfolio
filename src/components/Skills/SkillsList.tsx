@@ -29,7 +29,8 @@ const SkillsData = [
         title: "Styling Libraries",
         skills: [
             "Material-UI",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "BootStrap"
         ]
     },
     {
