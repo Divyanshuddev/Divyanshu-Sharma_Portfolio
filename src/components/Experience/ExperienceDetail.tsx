@@ -19,7 +19,6 @@ const styles = {
 };
 const ExperienceDetail = () => {
   return (
-    <Stack spacing={10}>
       <Stack spacing={4}>
         <Stack>
           <Typography sx={styles.title}>
@@ -80,80 +79,6 @@ const ExperienceDetail = () => {
           </Typography>
         </Stack>
       </Stack>
-      <Stack spacing={4}>
-        <Stack>
-          <Typography sx={styles.title}>
-            Software Developer at <b>Career Margdarshan</b>
-          </Typography>
-          <Typography sx={styles.date}>August 2024 - May 2025</Typography>
-        </Stack>
-        <Stack spacing={3}>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Developed{" "}
-            <b style={{ color: "#64FFDA" }}>responsive web applications</b>{" "}
-            using <b style={{ color: "#64FFDA" }}>React.js</b>, improving
-            overall performance and user experience by{" "}
-            <b style={{ color: "#64FFDA" }}>30%</b>.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Built <b style={{ color: "#64FFDA" }}>reusable</b> and{" "}
-            <b style={{ color: "#64FFDA" }}>modular components</b> to ensure
-            design consistency and maintainability across multiple projects.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            <b style={{ color: "#64FFDA" }}>Integrated RESTful APIs</b> with
-            advanced state management,{" "}
-            <b style={{ color: "#64FFDA" }}>
-              reducing API response time by 25%
-            </b>
-            .
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Collaborated in <b style={{ color: "#64FFDA" }}>Agile teams</b>,
-            actively participating in{" "}
-            <b style={{ color: "#64FFDA" }}>sprint planning</b>,{" "}
-            <b style={{ color: "#64FFDA" }}>daily stand-ups</b>, and{" "}
-            <b style={{ color: "#64FFDA" }}>retrospectives</b>.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Enhanced UI scalability and accessibility by implementing{" "}
-            <b style={{ color: "#64FFDA" }}>WCAG-compliant design</b> and{" "}
-            <b style={{ color: "#64FFDA" }}>responsive grid systems</b>.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Conducted <b style={{ color: "#64FFDA" }}>code reviews</b> and wrote{" "}
-            <b style={{ color: "#64FFDA" }}>unit tests</b> using{" "}
-            <b style={{ color: "#64FFDA" }}>Jest</b> and{" "}
-            <b style={{ color: "#64FFDA" }}>React Testing Library</b> to
-            maintain high code quality.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Contributed to a{" "}
-            <b style={{ color: "#64FFDA" }}>multi-tenant HRMS system</b> with
-            features like{" "}
-            <b style={{ color: "#64FFDA" }}>role-based access control</b> and
-            real-time analytics dashboards.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Designed dashboards for HR data visualization using{" "}
-            <b style={{ color: "#64FFDA" }}>React</b>,{" "}
-            <b style={{ color: "#64FFDA" }}>Redux</b>, and{" "}
-            <b style={{ color: "#64FFDA" }}>Material-UI</b>, improving data
-            interpretation speed.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Ensured <b style={{ color: "#64FFDA" }}>secure API communication</b>{" "}
-            using <b style={{ color: "#64FFDA" }}>JWT-based authentication</b>{" "}
-            and authorization strategies.
-          </Typography>
-          <Typography component={"li"} typeof="bullet" sx={styles.text}>
-            Assisted in deploying{" "}
-            <b style={{ color: "#64FFDA" }}>CI/CD pipelines</b>, enabling faster
-            and more reliable production releases.
-          </Typography>
-        </Stack>
-      </Stack>
-    </Stack>
   );
 };
 
