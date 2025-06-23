@@ -19,6 +19,7 @@ const styles = {
 };
 const ExperienceDetail = () => {
   return (
+    <Stack spacing={10}>
       <Stack spacing={4}>
         <Stack>
           <Typography sx={styles.title}>
@@ -78,6 +79,27 @@ const ExperienceDetail = () => {
             and more reliable production releases.
           </Typography>
         </Stack>
+      </Stack>
+      <Stack spacing={4}>
+        <Stack>
+          <Typography sx={styles.title}>
+            Full Stack Developer MERN at <b>Career Margdarshan</b>
+          </Typography>
+          <Typography sx={styles.date}>August 2024 - May 2025</Typography>
+        </Stack>
+        <Stack spacing={3}>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Spearheaded the development of scalable user interfaces using <b style={{ color: "#64FFDA" }}>React.js</b>, <b style={{ color: "#64FFDA" }}>TypeScript</b>, and <b style={{ color: "#64FFDA" }}>Redux Toolkit</b>, significantly enhancing frontend maintainability.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Engineered <b style={{ color: "#64FFDA" }}>RESTful APIs</b> with <b style={{ color: "#64FFDA" }}>Node.js</b> and <b style={{ color: "#64FFDA" }}>Express.js</b>, ensuring seamless integration between frontend and backend services.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Managed and structured data storage using <b style={{ color: "#64FFDA" }}>MongoDB</b>, improving data retrieval efficiency and scalability.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Designed and implemented responsive UI/UX with <b style={{ color: "#64FFDA" }}>Tailwind CSS</b>, maintaining consistency across various devices and screen sizes.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Integrated <b style={{ color: "#64FFDA" }}>React Hook Form</b> and <b style={{ color: "#64FFDA" }}>Axios</b> to build dynamic, interactive forms with real-time <b style={{ color: "#64FFDA" }}>validation and API communication</b>.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Enhanced performance using <b style={{ color: "#64FFDA" }}>lazy loading techniques</b>l, optimizing the platform's loading speed and responsiveness.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Wrote unit tests with <b style={{ color: "#64FFDA" }}>React Testing Library and Jest</b>, improving code reliability and reducing production-level bugs.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Ensured <b style={{ color: "#64FFDA" }}>WCAG accessibility compliance</b>, contributing to an inclusive and user-friendly experience for all users.</Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Collaborated closely with <b style={{ color: "#64FFDA" }}>cross-functional teams in an Agile environment, attending daily stand-ups, sprint planning, and code reviews.</b></Typography>
+          <Typography component={"li"} typeof="bullet" sx={styles.text}>Led continuous improvement efforts by adopting best practices in <b style={{ color: "#64FFDA" }}>Git-based version control, CI/CD deployment, and modular coding.</b></Typography>
+        </Stack>
+      </Stack>
       </Stack>
   );
 };

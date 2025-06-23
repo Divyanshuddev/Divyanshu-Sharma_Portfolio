@@ -72,7 +72,7 @@ const Navbar = () => {
                 whileInView={{ scale: 1.1 }}
                 style={{ backgroundColor: "#0A192F", border: "none" }}
               >
-                <Button variant="contained" sx={styles.resumeButton} size="large" href="https://drive.google.com/file/d/139LID0YvNJAutW-B_J-Epq6PNRzEFdi6/view?usp=sharing" target="_blank">Resume</Button>
+                <Button variant="contained" sx={styles.resumeButton} size="large" href="https://drive.google.com/file/d/1r9RdPmxM-EOtPBrAqhVluGVcrUb43doD/view?usp=sharing" target="_blank">Resume</Button>
               </motion.button>
             </motion.div>
           </Stack>

@@ -30,7 +30,6 @@ const SkillsData = [
         skills: [
             "Material-UI",
             "Tailwind CSS",
-            "BootStrap"
         ]
     },
     {
