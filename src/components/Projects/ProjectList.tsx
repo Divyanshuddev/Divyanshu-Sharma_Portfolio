@@ -9,6 +9,8 @@ import Project7 from '../../assets/Project/Project7.png';
 import Project8 from '../../assets/Project/Project8.png';
 import Project9 from '../../assets/Project/Project9.png';
 import Project10 from '../../assets/Project/Project10.png';
+import Project11 from '../../assets/Project/Project11.png';
+
 import { motion } from 'motion/react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded';
@@ -166,6 +168,22 @@ const ProjectData = [
         ],
         liveDemoLink: "https://post-pilot-app.vercel.app/",
         GithubLink: "https://github.com/Divyanshuddev/post_pilot_app"
+    },
+    {
+        project_id: 11,
+        projectImage: Project11,
+        projectName: "Miro",
+        projectDetails: "Miro App is a responsive landing page clone of the official Miro website, designed using React, TypeScript, MUI, and Framer Motion. It replicates modern UI elements with smooth animations and a clean, professional layout.",
+        techStack: [
+            "Typescript",
+            "CSS",
+            "React",
+            "Material UI",
+            "Responsive UI",
+            "Framer Motion Animation"
+        ],
+        liveDemoLink: "https://miro-app-coral.vercel.app/",
+        GithubLink: "https://github.com/Divyanshuddev/miro-app"
     }
 ]
 const styles = {
