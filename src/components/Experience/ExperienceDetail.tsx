@@ -80,7 +80,7 @@ const ExperienceDetail = () => {
           </Typography>
         </Stack>
       </Stack>
-      <Stack spacing={4}>
+      {/* <Stack spacing={4}>
         <Stack>
           <Typography sx={styles.title}>
             Full Stack Developer MERN at <b>Career Margdarshan</b>
@@ -99,7 +99,7 @@ const ExperienceDetail = () => {
           <Typography component={"li"} typeof="bullet" sx={styles.text}>Collaborated closely with <b style={{ color: "#64FFDA" }}>cross-functional teams in an Agile environment, attending daily stand-ups, sprint planning, and code reviews.</b></Typography>
           <Typography component={"li"} typeof="bullet" sx={styles.text}>Led continuous improvement efforts by adopting best practices in <b style={{ color: "#64FFDA" }}>Git-based version control, CI/CD deployment, and modular coding.</b></Typography>
         </Stack>
-      </Stack>
+      </Stack> */}
       </Stack>
   );
 };
